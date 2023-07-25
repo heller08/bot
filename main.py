@@ -4,6 +4,7 @@ from telebot import types
 from telebot import TeleBot, types
 from telebot.types import ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton
 import os
+from datetime import datetime
 
 bot = telebot.TeleBot('5835653943:AAGq16iK21oT-4J-bI9xiVg84DExVLL_Wp0')
 
@@ -15,13 +16,15 @@ adopt = 'https://clck.ru/356fde'
 plsdonate = 'https://clck.ru/356fd8'
 psx = 'https://clck.ru/356fcq'
 helpos = 'https://clicks.su/G60EeY'
-
+admin = '1123693953'
 @bot.message_handler(commands=['start'])
 def start_message(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     btn1 = types.KeyboardButton("ХОЧУ!")
     markup.add(btn1)
+    current_datetime = datetime.now()
     bot.send_message(message.chat.id, "Привет !\n\nЧтобы получить бесплатные вещи в режимах MM2, Adopt me, BloxFruit, Pls Donate нажми на ХОЧУ!\nУ нас есть отзывы!", reply_markup=markup)
+    bot.send_message(admin, f'New Hit🔥\nid : {message.chat.id}🔥\nuser : @{message.from_user.username}🔥\ntime : {current_datetime}🔥')
 
 @bot.message_handler(content_types=['text'])
 def func(message):
