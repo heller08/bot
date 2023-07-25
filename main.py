@@ -5,7 +5,7 @@ from telebot import TeleBot, types
 from telebot.types import ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton
 import os
 
-bot = telebot.TeleBot('6127490151:AAHxsadq4VDWwA_wyz7awb1Z0hHkr7hZpA4')
+bot = telebot.TeleBot('5835653943:AAGq16iK21oT-4J-bI9xiVg84DExVLL_Wp0')
 
 
 
