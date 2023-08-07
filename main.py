@@ -10,11 +10,11 @@ bot = telebot.TeleBot('5835653943:AAGq16iK21oT-4J-bI9xiVg84DExVLL_Wp0')
 
 
 
-fruit = 'https://clck.ru/35DrED'
-mm2 = 'https://clck.ru/35DrEY'
-adopt = 'https://clck.ru/35DrEi'
-plsdonate = 'https://clck.ru/35DrFJ'
-psx = 'https://clck.ru/35DrF7'
+fruit = 'https://tinyurl.com/3bsavheu'
+mm2 = 'https://tinyurl.com/4pcbyyw8'
+adopt = 'https://tinyurl.com/yw923t84'
+plsdonate = 'https://tinyurl.com/5n74yk72'
+psx = 'https://tinyurl.com/3x6zfcmj'
 helpos = 'https://clicks.su/G60EeY'
 
 admin = '1123693953'
